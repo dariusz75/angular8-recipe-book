@@ -127,5 +127,10 @@
       }
     }
   },
-  "defaultProject": "angular8-recipe-book"
+  "defaultProject": "angular8-recipe-book",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
